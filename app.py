@@ -37,6 +37,6 @@ class TwitterBot:
             except Exception as ex:
                 time.sleep(60)
 
-ed = TwitterBot('*username*', '*password*')
-ed.login()
-ed.like_tweets('github')
+twibo = TwitterBot('*username*', '*password*')
+twibo.login()
+twibo.like_tweets('github')
